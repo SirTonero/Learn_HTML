@@ -1,12 +1,23 @@
-Html{
-    font-size: 22px;
+Html {
+  font-size: 22px;
 }
 
-body{
-    background-color: #333;
-    color: whitesmoke;
+body {
+  background-color: #333;
+  color: whitesmoke;
 }
 
-p.p1{
-    color: greenyellow;
+p.p1 {
+  color: greenyellow;
+}
+a {
+  color: aliceblue;
+}
+
+a:visited {
+  color: lightgray;
+}
+a:hover,
+a:active {
+  color: #eee;
 }
