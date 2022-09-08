@@ -1,17 +1,17 @@
-Html{
-    font-size: 18px;
+Html {
+  font-size: 18px;
 }
 
-body{
-    background-color: #333;
-    color: whitesmoke;
+table,
+tr,
+th,
+td {
+  border: 2px solid #eee;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
 }
 
-p.p1{
-    color: greenyellow;
+caption {
+  font-weight: bold;
 }
-
-address.biography{
-    font-style: normal;
-}
-
