@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+  <h1>How to Reach Us!!</h1>
+  <hr>
+
+  <article id="contact">
+    <h2>
+      Please fill the form below.
+    </h2>
+    <p>I'd really like to hear from you!</p>
+
+    <form action="https://httpbin.org/get" method="get">
+      <p>
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="FirstName" id="FirstName" placeholder="Jane" autocomplete="on" required autofocus>
+      </p>
+      <p>
+        <label for="LastName">Last Name:</label>
+        <input type="text" name="LastName" id="LastName" placeholder="Doe" required>
+      </p>
+      <label for="Email">Email:</label>
+      <input type="email" name="Email" id="Email" required placeholder="janedoe@gmail.com">
+
+    </form>
+
+  </article>
+
+
+</body>
+
 </html>
